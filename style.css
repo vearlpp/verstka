@@ -1,0 +1,87 @@
+*{
+	font-family: "Roboto Light", serif;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1366px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.block-about {
+	background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.header {
+	display: flex;
+	width: 1140px;
+	height: 48px;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 34px 113px 0 113px;
+}
+
+
+
+.big-text-in-block-about {
+	width: 504px;
+	height: 148px;
+	margin: 107px 0 0 113px;
+}
+
+.big-text-in-block-about p {
+	font-size: 64px;
+	letter-spacing: 0.04em;
+	text-align: left;
+	color: #1F3F68;
+	height: inherit;
+}
+
+.big-text-in-block-about pre {
+	height: 148px;
+}
+.small-text-in-block-about {
+	width: 425px;
+	height: 82px;
+	margin: 32px 0 0 114px ;
+	opacity: 60%;
+}
+
+
+.small-text-in-block-about p {
+	font-family:"Roboto Regular", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color: rgba(31, 63, 104, 1);
+}
+
+.button-see-project {
+	width: 220px;
+	height: 56px;
+	background: rgba(90, 152, 208, 1);
+	box-shadow: 5px 10px 20px 0px rgba(53, 110, 173, 0.2);
+	border-radius: 10px;
+	margin: 71px 0 0 114px;
+}
+
+.button-see-project p {
+	font-family: "Roboto Regular", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	margin: 15px 50px;
+}
+
+.illustration-about {
+	width: 553.68px;
+	height: 481.39px;
+}
